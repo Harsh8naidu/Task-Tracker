@@ -17,6 +17,12 @@
       "text": "Food Shopping",
       "day": "March 3rd at 11:00am",
       "reminder": false
+    },
+    {
+      "text": "Internship Assignment",
+      "day": "14 March at 12pm",
+      "reminder": true,
+      "id": "OZ4kJxZ"
     }
   ]
 }
