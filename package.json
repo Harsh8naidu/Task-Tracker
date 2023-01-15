@@ -4,7 +4,9 @@
   "description": "fake server with fake database",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "backend": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "core-js": "^3.8.3",
