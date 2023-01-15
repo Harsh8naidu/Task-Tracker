@@ -2,11 +2,14 @@
   "name": "crash-course-2023",
   "version": "0.1.0",
   "description": "fake server with fake database",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "node index.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
     "json-server": "^0.17.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.13"
